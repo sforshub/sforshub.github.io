@@ -1624,6 +1624,32 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Certification Section
+--------------------------------------------------------------*/
+.certification-item {
+  text-align: center;
+}
+
+.certification-img {
+  max-width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.certification-info h4 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.certification-info p {
+  font-size: 14px;
+  color: var(--default-color);
+}
+
+/*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
 .starter-section {
